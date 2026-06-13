@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #704d97;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .card{
+           
+            background-color: #ffffff;
+            width: 300px;
+            border-radius: 20px;
+            padding: 10px;
+            margin: 20px;
+            
+        }
+        
+        input {
+            padding: 6px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            width: 230px;
+            margin:5px;
+            
+           
+        }
+        
+
+
+        
+        
+        form{
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            margin: 20px;
+            border: 10px;
+        }
+        button {
+            
+            align-self: center; 
+            width: 100px; 
+    
+            
+            background-color: #664564;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            padding: 7px 5px;
+            text-align: center; /* Keeps the text centered inside the box */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+}
+        button:hover{
+            background-color: #3a054d;
+        }
+        .row {
+            display: flex;
+            flex-direction: row;
+            gap: 2px;
+            
+           
+        }
+        input[type="text"]{
+            width:103px
+          
+
+        }
+         input[type="password"]{
+            width: 140px;
+            align-self: center; 
+          
+
+        }
+        h1{
+            align-self: center;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>
+            Signup 
+        </h1>
+        <form >
+           
+
+                <input type="email" name="" id="" placeholder=" Email">
+                
+            <div class="row">
+                
+                <input type="text" name="" id="" placeholder=" Firstname">
+                <input type="text" name="" id="" placeholder="Lastname">
+               
+                
+            </div> 
+                
+              <input type="password" name="" id="" placeholder=" Password">
+
+           
+
+                
+            
+            <button>Signup</button>
+        </form>
+    </div>
+</body>
+</html>
